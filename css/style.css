@@ -43,19 +43,27 @@ button {
     transition: 1.3s;
 }
 
-.classic-button:hover{
+.classic-button:hover {
     scale: 1.05;
 }
 
 .classic-title {
     font-weight: bolder;
-    text-align: center;
     font-size: 40px;
 }
 
 .classic-text {
     font-weight: lighter;
     font-size: 24px;
+}
+
+.previous-img,
+.next-img {
+    position: static;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    cursor: pointer;
 }
 
 /* HEADER */
@@ -72,7 +80,7 @@ header {
     margin-right: auto;
 }
 
-.header-left button{
+.header-left button {
     border: none;
     background-color: transparent;
 }
@@ -83,7 +91,7 @@ header div {
     padding: 5px;
 }
 
-.search-sheet{
+.search-sheet {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -91,12 +99,12 @@ header div {
     justify-content: center;
 }
 
-.search-sheet form{
+.search-sheet form {
     display: flex;
-      width: 100%;
+    width: 100%;
 }
 
-.search-sheet button{
+.search-sheet button {
     background-color: transparent;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -115,15 +123,16 @@ header div {
     border-right-color: transparent;
 }
 
-#search-input:focus{
+#search-input:focus {
     padding: 10px;
     border: none;
 }
 
-#search-img{
+#search-img {
     height: 30px;
     width: 30px;
 }
+
 #sidebar,
 #logo {
     height: 35px;
@@ -144,4 +153,51 @@ header div {
     align-items: center;
     padding: 50px;
     width: 100%;
+}
+
+.services {
+    width: 100%;
+    background: linear-gradient(var(--Services2), var(--White));
+    padding: 25px;
+}
+
+.services-head {
+    margin: 2px;
+    justify-content: left;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.carousel-services {
+    border: 0.5px solid var(--Match1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+.title-services {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.perfect-match {
+    background: radial-gradient(at center, VAR(--Match2), VAR(--Match1) 42%);
+    color: var(--White);
+    padding: 25px;
+}
+
+.carousel-match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
