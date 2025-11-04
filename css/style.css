@@ -59,7 +59,7 @@ button {
 
 .previous-img,
 .next-img {
-    position: static;
+
     height: 40px;
     width: 40px;
     margin: 10px;
@@ -155,6 +155,23 @@ header div {
     width: 100%;
 }
 
+.img-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+    width: 500px;
+    height: 500px;
+}
+
+#hero-img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.4s ease;
+}
+
+
 .services {
     width: 100%;
     background: linear-gradient(var(--Services2), var(--White));
@@ -172,6 +189,7 @@ header div {
     justify-content: space-between;
     align-items: center;
     margin: 10px;
+    overflow-x: hidden;
 }
 
 .carousel-services {
