@@ -12,10 +12,6 @@
 <body>
     <header>
         <div class="header-left">
-            <button>
-                <img src="assets/sidebar.png" alt="" srcset="" id="sidebar">
-            </button>
-
             <a href="index.html">
                 <img src="assets/logo.png" alt="logo" srcset="" id="logo">
             </a>
@@ -29,7 +25,9 @@
         </div>
 
         <div class="header-right">
-            <img src="assets/dark_mode.png" alt="" srcset="" id="dark-mode">
+            <button>
+                <img src="assets/sidebar.png" alt="" srcset="" id="sidebar">
+            </button>
         </div>
     </header>
 
@@ -56,7 +54,7 @@
 
             <div class="carousel">
 
-                <img src="assets/previous.png" alt="" srcset="">
+                <img src="assets/previous.png" alt="" srcset="" class="previous-img">
 
                 <div class="carousel-services">
                     <img src="assets/appleMusic.png" alt="appleMusic" srcset="" class="services-img">
@@ -79,7 +77,7 @@
                     <button class="classic-button">Browse now.</button>
                 </div>
 
-                <img src="assets/next.png" alt="" srcset="">
+                <img src="assets/next.png" alt="" srcset="" class="next-img">
 
             </div>
 
@@ -108,8 +106,142 @@
         </div>
     </section>
 
-    <footer>
+    <section>
+        <div class="appleWatch">
+            <h2 class="classic-title">Designed for you.</h2>
+            <p class="classic-text">Use them everywhere</p>
 
+            <div class="product">
+                <img src="assets/appleWatch.png" alt="appleWatch" srcset="">
+                <h3 class="classic-title">Apple Watch</h3>
+                <p>The ultimate companion for your health, fitness and style</p>
+                <p>Services included:</p>
+                <div class="s-product">
+                    <div class="s-product-inside">
+                        <img src="assets/iOs.png" alt="iOS" srcset="">
+                        <p>iOS</p>
+                    </div>
+
+                    <div class="s-product-inside">
+                        <img src="assets/AppStore.png" alt="appStore" srcset="">
+                        <p>AppStore</p>
+                    </div>
+
+                    <div class="s-product-inside">
+                        <img src="assets/Siri.png" alt="" srcset="">
+                        <p>Siri</p>
+                    </div>
+
+
+                </div>
+
+                <button class="classic-button">Learn More</button>
+            </div>
+
+
+        </div>
+
+        <div class="appleMac">
+
+            <div class="product">
+                <img src="assets/AppleMac.png" alt="appleMac" srcset="">
+                <h3 class="classic-title">Apple Mac</h3>
+                <p>Power that works as hard as you do.</p>
+                <p>Services included:</p>
+                <div class="s-product">
+                    <div class="s-product-inside">
+                        <img src="assets/iOs.png" alt="iOS" srcset="">
+                        <p>iOS</p>
+                    </div>
+
+                    <div class="s-product-inside">
+                        <img src="assets/AppStore.png" alt="appStore" srcset="">
+                        <p>AppStore</p>
+                    </div>
+
+                    <div class="s-product-inside">
+                        <img src="assets/Siri.png" alt="" srcset="">
+                        <p>Siri</p>
+                    </div>
+
+
+                </div>
+
+                <button class="classic-button">Learn More</button>
+            </div>
+
+
+        </div>
+
+         <div class="appleTV">
+
+            <div class="product">
+                <img src="assets/appleTV+.png" alt="appleMac" srcset="">
+                <h3 class="classic-title">Apple TV+</h3>
+                <p>Cinematic experience. Right from your living room.</p>
+                <p>Services included:</p>
+                <div class="s-product">
+                    <div class="s-product-inside">
+                        <img src="assets/iOs.png" alt="iOS" srcset="">
+                        <p>iOS</p>
+                    </div>
+
+                    <div class="s-product-inside">
+                        <img src="assets/AppStore.png" alt="appStore" srcset="">
+                        <p>AppStore</p>
+                    </div>
+
+                    <div class="s-product-inside">
+                        <img src="assets/Siri.png" alt="" srcset="">
+                        <p>Siri</p>
+                    </div>
+
+
+                </div>
+
+                <button class="classic-button">Learn More</button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="newsletter">
+            <h2 class="classic-title">Stay in touch with Apple.</h2>
+            <p class="classic-text">Subscribe to our newsletter and get the latest Apple news and offers</p>
+
+            <form action="" class="form-newsletter">
+                <label for="first-name">Your name<p class="required">*</p></label>
+                <input type="text" name="first-name">
+                
+                <label for="surname">Your surname<p class="required">*</p></label>
+                <input type="text" name="surname">
+
+                <label for="">Your email<p class="required">*</p></label>
+                <input type="email" name="email">
+
+                <label for="email-repeat">Please repeat your email<p class="required">*</p></label>
+                <input type="email" name="email-repeat">
+
+                <div class="btn-newsletter">
+                    <button class="classic-button">Cancel</button>
+                    <button class="classic-button" type="submit">Submit</button>
+                </div>
+            </form>
+
+            <p>🔒 We respect your privacy. You can unsubscribe anytime.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Privacy Policy · Terms of Use · Legal · Site Map</p>
+        <p>© 2025 Apple Inc. All rights reserved.</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 512 512" id="language">
+                <path fill="#ffffff"
+                    d="M256 18v29h238V18zm-208 .002l-9.404 19.053l-21.03 3.056l15.217 14.833L29.19 75.89l18.812-9.892l18.807 9.89l-3.593-20.945L78.434 40.11l-21.032-3.055zm80 0l-9.404 19.053l-21.032 3.056l15.217 14.833l-3.59 20.946L128 65.997l18.807 9.89l-3.592-20.945l15.217-14.832l-21.03-3.055zm80 0l-9.404 19.053l-21.032 3.056l15.217 14.833l-3.59 20.946L208 65.997l18.807 9.89l-3.592-20.945l15.217-14.832l-21.03-3.055zm-39.404 54.385L159.19 91.44l-21.028 3.056l15.217 14.832l-3.593 20.945l18.81-9.89l18.807 9.89l-3.59-20.945l15.215-14.832l-21.032-3.057l-9.402-19.053zm-79.998 1.998L79.193 93.44l-21.03 3.056l15.218 14.832l-3.593 20.945l18.81-9.89l18.807 9.89l-3.59-20.945l15.215-14.832L98 93.44zM256 81v30h238V81zM48 130.004l-9.404 19.053l-21.03 3.056l15.217 14.832l-3.592 20.946L48.003 178l18.807 9.89l-3.593-20.945l15.217-14.832l-21.032-3.056zm80 0l-9.404 19.053l-21.032 3.056l15.217 14.832l-3.59 20.946L128 178l18.807 9.89l-3.592-20.945l15.217-14.832l-21.03-3.056zm80 0l-9.404 19.053l-21.032 3.056l15.217 14.832l-3.59 20.946L208 178l18.807 9.89l-3.592-20.945l15.217-14.832l-21.03-3.056zM256 145v30h238v-30zM88.598 186.385l-9.405 19.054l-21.03 3.056l15.218 14.832l-3.593 20.945l18.81-9.89l18.807 9.89l-3.59-20.945l15.215-14.832L98 205.44zm79.998.002l-9.405 19.052l-21.028 3.056l15.217 14.832l-3.593 20.945l18.81-9.89l18.807 9.89l-3.59-20.945l15.215-14.832l-21.032-3.057l-9.402-19.053zM256 209v30h238v-30zM18 273v30h476v-30zm0 64v30h476v-30zm0 64v30h476v-30zm0 64v29h476v-29z" />
+            </svg> USA | English</p>
     </footer>
 
     <script src="js/main.js"></script>
